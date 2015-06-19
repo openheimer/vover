@@ -1,0 +1,25 @@
+{
+  "name": "vover",
+  "version": "0.0.1",
+  "description": "Vover -is wrapper for bower.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openheimer/vover.git"
+  },
+  "keywords": [
+    "bower",
+    "lock",
+    "vover",
+    "dependencies"
+  ],
+  "author": "Korniev Zakhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openheimer/vover/issues"
+  },
+  "homepage": "https://github.com/openheimer/vover#readme"
+}
