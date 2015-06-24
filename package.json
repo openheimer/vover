@@ -2,7 +2,8 @@
   "name": "vover",
   "version": "0.0.1",
   "description": "Vover -is wrapper for bower.js",
-  "main": "index.js",
+  "main": "lib",
+  "bin": "bin/vover",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/openheimer/vover/issues"
   },
-  "homepage": "https://github.com/openheimer/vover#readme"
+  "homepage": "https://github.com/openheimer/vover#readme",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "bower-logger": "^0.2.2",
+    "promise": "^7.0.3",
+    "q": "^1.4.1"
+  }
 }

@@ -1,0 +1,8 @@
+'use strict';
+process.bin = process.title = "vover";
+var vover = require( "../lib/" );
+
+var command = process.argv[2];
+var options = process.argv.splice(3);
+
+vover.command( command, options );
