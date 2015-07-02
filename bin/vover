@@ -7,4 +7,11 @@ var command = process.argv[2];
 var options = process.argv.splice(3);
 
 vover.init({ cwd: process.cwd() });
-vover.command( command, options );
+vover
+    .command(command, options)
+    .fail(function(e){
+        process.exit(1);
+    })
+    .finally(function(){
+        process.exit(0);
+    });
