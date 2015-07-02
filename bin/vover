@@ -6,4 +6,5 @@ var vover = require( "../lib/" );
 var command = process.argv[2];
 var options = process.argv.splice(3);
 
+vover.init({ cwd: process.cwd() });
 vover.command( command, options );
