@@ -1,6 +1,6 @@
 {
   "name": "vover",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Vover -is wrapper for bower.js",
   "main": "lib",
   "bin": "bin/vover",
