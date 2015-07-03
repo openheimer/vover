@@ -25,6 +25,6 @@
   "homepage": "https://github.com/openheimer/vover#readme",
   "dependencies": {
     "bower": "^1.4.1",
-    "q": "^1.4.1"
+    "q": "^1.4.1"path.join('node_modules', '.bin', name)
   }
 }
